@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float n, p, hitung=0.0;
+    cout<<"Jumlah bilangan :";
+    cin>>n;
+    for (int i=1; i<=n; i++){
+        cout<<"bilangan "<<i<<": ";
+        cin>>p;
+        hitung=hitung+p;
+    }
+    cout<<"Rata-rata :"<<(hitung/n);
+}
