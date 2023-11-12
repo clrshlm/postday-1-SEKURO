@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int tahun;
+    cout<<"Tentukan tahun kabisat"<<endl;
+    cout<<"Tahun: ";
+    cin>>tahun;
+    if (tahun%400!=0 && tahun%100==0){
+        cout<<"bukan kabisat";
+    } else if ((tahun%400!=0) && (tahun%100!=0) && (tahun%4!=0)){
+        cout<<"bukan kabisat";
+    } else {
+        cout<<"kabisat";
+    }
+}
