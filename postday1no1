@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, k;
+    cout<<"Inputkan n :";
+    cin>>n;
+    cout<<"Inputkan k: ";
+    cin>>k;
+    for (int i=n; i<=k; i+=2){
+    cout<<i<<" ";
+    }
+}
