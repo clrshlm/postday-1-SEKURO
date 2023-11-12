@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int n, hitung=0;
+    cout<<"Input satu angka bulat: ";
+    cin>>n;
+    for (int i=1; i<=n; i++){
+        if (n%i==0){
+            hitung=hitung+1;
+        }
+    }
+    if(hitung==2){
+        cout<<n<<" adalah bilangan prima";
+    }else{
+        cout<<n<<" bukan bilangan prima";
+        }
+}
